@@ -4,9 +4,39 @@
     box-sizing: border-box;
   }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 body {
     background-color: black;
     color: white;
+    font-family: PreciousSansTwoMedium;
+}
+
+video {
+    width: 80%;
+    height: auto;
+}
+
+button {
+    width: 50%;
+    font-family: PreciousSansTwoMedium;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+h1 {
+    font-family: PreciousSansTwoBlackItalic;
+    padding: 10px;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: PreciousSansTwoDemiBoldItalic;
+    font-size: 2rem;
+    padding: 10px;
 }
 
 img{
@@ -18,17 +48,40 @@ img{
     width: 200px;
 }
 
-
 header {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    /* background-color: red;s */
+    width: 100%;
    display: flex;
-   justify-content: flex-end;
+   justify-content: space-between;
 }
 
-.nav-bar {
+.nav-bar, .anim-grid,.toggle {
     display: flex;
+    justify-content: center;
+    width: 100%;
 
 }
 
-.anim-grid {
+.logo-img {
+    flex: 3;
+}
+
+.insta-img {
+    flex: 1;
+}
+.hero {
+    padding: 10px;
+    align-items: center;
     display: flex;
+    flex-direction: column;
+}
+
+.nav-links a {
+    margin-right: 2rem;
+}
+
+.nav-links {
+    flex: 1;
 }
