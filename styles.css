@@ -1,3 +1,146 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:66de612a32bbc9346edd844c999cec6f44c376e0aab7283457e7fbb5b90e03e9
-size 2195
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-out;
+  }
+
+#design-btn {
+    color: #e74d83;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: PreciousSansTwoMedium;
+}
+
+video {
+    width: 50%;
+    height: auto;
+}
+
+button {
+    width: 40%;
+    font-family: PreciousSansTwoDemiBold;
+    color: #fff;
+    background-color: black;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+h1 {
+    font-family: PreciousSansTwoBlackItalic;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    /* background: linear-gradient(180deg, rgba(255,132,215,1) 0%, rgba(225,9,224,1) 23%, rgba(255,255,255,1) 50%, rgba(224,0,223,1) 52%, rgba(255,202,236,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+h2 {
+    font-family: PreciousSansTwoDemiBoldItalic;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+h3 {
+    font-family: PreciousSansTwoMediumItalic;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+
+#anim-grid, #design-grid {
+    margin: 0 auto;
+}
+.grid-item img{
+    width: 100%;
+    height: auto;
+}
+
+.grid-item video{
+    width: 100%;
+    height: auto;
+}
+
+.grid-item {
+    width: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* .grid-item:hover {
+    filter: hue-rotate(90deg);
+} */
+
+header {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    /* background-color: red;s */
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav-bar, #anim-grid,#design-grid {
+ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+#motion-reel:hover, #motion-reel:active {
+    box-shadow: 0px 0px 20px 10px #0ff;
+    padding: 1.5rem;
+}
+
+
+#anim-grid {
+    display: none;
+}
+
+.logo-img {
+    width: 30px;
+
+}
+
+
+.hero {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutsec {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#headshot {
+    width: 20rem;
+    margin: 1rem;
+}
+
+.toggle {
+    display: flex;
+    margin: 1rem 1rem 2rem 1rem;
+    justify-content: center;
+}
+
+.nav-links a {
+    margin-right: 2rem;
+}
+
