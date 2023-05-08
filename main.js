@@ -17,7 +17,7 @@
         gutter: 5
     });
 
-    imagesLoaded( grid2,  masonry.layout())
+    imagesLoaded( grid2, () => masonry.layout())
 
     // var grid2 = document.querySelector('#design-grid');
     
