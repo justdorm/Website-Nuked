@@ -1,7 +1,4 @@
-
-
-    window.onload = () => {
-        var grid = document.querySelector('#anim-grid');
+var grid = document.querySelector('#anim-grid');
         var grid2 = document.querySelector('#design-grid');
         
         var masonry2 = new Masonry(grid2, {
@@ -19,6 +16,10 @@
             columnWidth: 200,
             gutter: 5
         });
+
+    window.onload = () => {
+        masonry.layout();
+        masonry2.layout();
     }
  
 
@@ -40,6 +41,7 @@ AnimBtn.onclick = function(event){
     DesignBtn.style.color ="#fff";
     DesignGrid.style.display="none";
     AnimGrid.style.display="flex";
+    masonry.layout();
 
 
 };
@@ -48,6 +50,7 @@ DesignBtn.onclick = function(event){
     AnimBtn.style.color="#fff";
     AnimGrid.style.display="none";
     DesignGrid.style.display="flex";
+    masonry2.layout();
 
 
 };
