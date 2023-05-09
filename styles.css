@@ -5,6 +5,17 @@
     transition: all 0.5s ease-out;
   }
 
+  button {
+    width: 40%;
+    font-family: PreciousSansTwoDemiBold;
+    color: #fff;
+    background-color: black;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
 #design-btn {
     color: #e74d83;
 }
@@ -23,16 +34,6 @@ body {
 video {
     width: 50%;
     height: auto;
-}
-
-button {
-    width: 40%;
-    font-family: PreciousSansTwoDemiBold;
-    color: #fff;
-    background-color: black;
-    border: none;
-    font-size: 2rem;
-    padding: 10px;
 }
 
 h1 {

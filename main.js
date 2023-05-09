@@ -36,18 +36,18 @@ var AnimBtn = document.getElementById("anim-btn");
 var DesignBtn = document.getElementById("design-btn");
 
 AnimBtn.onclick = function(event){
+    AnimBtn.style.color = "#e74d83";
+    DesignBtn.style.color ="#fff";
     DesignGrid.style.display="none";
     AnimGrid.style.display="flex";
-    masonry.layout();
 
-    AnimBtn.style.color="#e74d83";
-    DesignBtn.style.color="#fff";
+
 };
 DesignBtn.onclick = function(event){
-    AnimGrid.style.display="none";
-    DesignGrid.style.display="flex";
-    masonry2.layout();
-
     DesignBtn.style.color="#e74d83";
     AnimBtn.style.color="#fff";
+    AnimGrid.style.display="none";
+    DesignGrid.style.display="flex";
+
+
 };
