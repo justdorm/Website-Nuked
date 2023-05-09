@@ -1,26 +1,26 @@
-    var grid = document.querySelector('#anim-grid');
-    var grid2 = document.querySelector('#design-grid');
-    
-    var masonry2 = new Masonry(grid2, {
-        itemSelector: '.grid-item',
-        // percentPosition: true,
-        fitWidth: true,
-        columnWidth: 200,
-        gutter: 5
-    });
-    
-    var masonry = new Masonry(grid, {
-        itemSelector: '.grid-item',
-        // percentPosition: true,
-        fitWidth: true,
-        columnWidth: 200,
-        gutter: 5
-    });
+
 
     window.onload = () => {
-        masonry.layout()
+        var grid = document.querySelector('#anim-grid');
+        var grid2 = document.querySelector('#design-grid');
+        
+        var masonry2 = new Masonry(grid2, {
+            itemSelector: '.grid-item',
+            // percentPosition: true,
+            fitWidth: true,
+            columnWidth: 200,
+            gutter: 5
+        });
+        
+        var masonry = new Masonry(grid, {
+            itemSelector: '.grid-item',
+            // percentPosition: true,
+            fitWidth: true,
+            columnWidth: 200,
+            gutter: 5
+        });
     }
-    imagesLoaded( grid2, () => masonry.layout())
+ 
 
     // var grid2 = document.querySelector('#design-grid');
     
