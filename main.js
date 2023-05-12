@@ -55,13 +55,13 @@ DesignBtn.onclick = function(event){
 
 };
 
-// AnimBtn.onmouseover = function(event){
-//     AnimBtn.style.text-shadow = "0 0 2px #fff,
-//     0 0 10px #e74d83,
-//     0 0 21px #e74d83,
-//     0 0 42px #e74d83,
-//     0 0 82px #e74d83,
-//     0 0 92px #e74d83,
-//     0 0 102px #e74d83,
-//     0 0 151px #83173d";
-// }
+AnimBtn.onmouseover = function(event){
+//     // AnimBtn.style.textShadow ="0 0 2px #fff";
+//     // AnimBtn.style.textShadow ="0 0 10px #e74d83";
+//     // AnimBtn.style.textShadow ="0 0 21px #e74d83";
+//     // AnimBtn.style.textShadow ="0 0 42px #e74d83";
+//     // AnimBtn.style.textShadow ="0 0 82px #e74d83";
+//     // AnimBtn.style.textShadow ="0 0 92px #e74d8";
+//     // AnimBtn.style.textShadow ="0 0 102px #e74d83";
+//     AnimBtn.style.textShadow ="0 0 151px #83173d";
+}
